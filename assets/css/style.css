@@ -56,6 +56,7 @@ nav {
     background-color: #fff;
     overflow: auto;
     margin-bottom: 30px;
+    border-bottom: solid 3px #ddd;
 }
 
 header {
@@ -177,12 +178,11 @@ li {
 
     h1 {
         text-align: center;
-        clear: both;
     }
 
     ul {
-        margin: 0 auto;
         position: relative;
+        left: 200px;
     }
     
     .width960 {
@@ -194,7 +194,6 @@ li {
     }
 
     #portfolioPic {
-        clear: both;
         width: 510px;
         height: 415px;
         margin: 10px 25px;
@@ -213,5 +212,9 @@ li {
         width: 100%;
         height: 30px;
         padding: 20px 0px 15px 0px;
+    }
+
+    #portfolioAnchor {
+        padding-bottom: 5px;
     }
 }
