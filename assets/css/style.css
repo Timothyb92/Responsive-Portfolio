@@ -230,6 +230,7 @@ li {
     
     .width960 {
         width: 90%;
+        margin-left: 18px;
     }
     
     .navDiv {
