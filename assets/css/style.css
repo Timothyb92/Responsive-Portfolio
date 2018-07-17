@@ -120,6 +120,7 @@ button {
     background-color: #4aaaa5;
     color: #fff;
     font-size: 10pt;
+    margin-top: 10px;
 }
 
 form p {
@@ -170,7 +171,7 @@ li {
         width: 640px;
     }
 
-    h1, ul, article, #navDiv {
+    h1, ul, article, #navDiv, input, textarea {
         width: 100%;
     }
 
