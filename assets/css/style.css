@@ -33,6 +33,8 @@ h1 {
     margin: 0;
     padding: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
 h2 {
@@ -160,4 +162,39 @@ li {
     bottom: 10px;
     left: 0;
     right: 0;
+}
+
+@media only screen and (max-width: 640px) {
+    body, nav {
+        width: 640px;
+    }
+
+    h1, ul, article, #navDiv {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        clear: both;
+    }
+
+    ul {
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .width960 {
+        width: 90%;
+    }
+
+    li {
+        padding: 15px 0;
+    }
+
+    #portfolioPic {
+        clear: both;
+        width: 510px;
+        height: 415px;
+        margin: 10px 25px;
+    }
 }
