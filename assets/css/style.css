@@ -249,9 +249,13 @@ li {
     .container {
         margin: 20px 0 10px 0;
     }
+
+    .centered-bottom {
+        width: 304.84px;
+    }
     
     .marginLeft {
-        margin-left: 51.188px;
+        margin-left: 41px;
     }/*Need to find better way of positioning instead of
     calculating parent element width and adding
     margins accordingly*/
