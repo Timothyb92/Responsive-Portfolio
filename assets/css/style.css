@@ -218,3 +218,34 @@ li {
         padding-bottom: 5px;
     }
 }
+
+@media only screen and (max-width: 768px){
+    body, nav {
+        width: 768px;
+    }
+
+    article, input, textarea {
+        width: 100%;
+    }
+
+    .width960 {
+        width: 90%;
+    }
+
+    #navDiv {
+        width:100%;
+        margin-left: 18.408px;
+    }
+
+    ul {
+        margin: 15px 18.408px 0 0;
+    }
+
+    #portfolioPic {
+        width: 50%;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+    }
+}
