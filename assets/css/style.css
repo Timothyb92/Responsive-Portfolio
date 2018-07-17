@@ -44,6 +44,7 @@ h2 {
     padding-bottom: 30px;
     font-size: 22pt;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 a {
@@ -93,6 +94,8 @@ footer {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
+    width: 40%;
+    height: 100%;
 }
 
 article {
@@ -154,6 +157,7 @@ form p {
 ul {
     float: right;
     list-style-type: none;
+    margin-top: 15px;
 }
 
 li {
@@ -246,10 +250,6 @@ li {
         width: 50%;
     }
 
-    h2 {
-        margin-bottom: 20px;
-    }
-
     .container {
         margin: 20px 0 10px 0;
     }
@@ -287,10 +287,6 @@ li {
     #portfolioPic {
         width: 40%;
         height: 200px;
-    }
-
-    h2 {
-        margin-bottom: 30px;
     }
 
     .container {
