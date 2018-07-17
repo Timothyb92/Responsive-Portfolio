@@ -43,6 +43,7 @@ h2 {
     color: #4aaaa5;
     padding-bottom: 30px;
     font-size: 22pt;
+    font-weight: bold;
 }
 
 a {
@@ -258,5 +259,55 @@ li {
     }/*Need to find better way of positioning instead of
     calculating parent element width and adding
     margins accordingly*/
+}
 
+@media only screen and (max-width: 960px){
+    body, nav {
+        width: 960px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    .width960 {
+        width: 60%;
+        margin-left: 28px;
+    }
+
+    #navDiv {
+        width:100%;
+        margin-left: 28px;
+    }
+
+    ul {
+        margin: 15px 28px 0 0;
+    }
+
+    #portfolioPic {
+        width: 40%;
+        height: 200px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        width: 47%;
+        margin: 0 0px 20px 0;
+    }
+
+    .portfolioArticle img {
+        width: 100%;
+        height: 100%
+    }
+
+    .centered-bottom {
+        width: 250.5px;
+    }
+
+    .marginLeft {
+        margin-left: 34px;
+    }
 }
